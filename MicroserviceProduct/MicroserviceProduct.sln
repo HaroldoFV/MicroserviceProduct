@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{95F658D1-E10D-4090-91B0-20C389096626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{4FCE71C0-CABE-49B5-81D7-2F1B281C53F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{6E6D05FA-3CA5-4F48-B2FE-2AD0AC2C55FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{4CD926B3-FF98-4D29-8519-D83CF487E1A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{E54B670B-B7DA-4DD3-94E0-B1669C4CC7B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProduct.API", "MicroserviceProduct.API\MicroserviceProduct.API.csproj", "{CD11EF55-A04D-4624-94F4-98031B93DB61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD11EF55-A04D-4624-94F4-98031B93DB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD11EF55-A04D-4624-94F4-98031B93DB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD11EF55-A04D-4624-94F4-98031B93DB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD11EF55-A04D-4624-94F4-98031B93DB61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD11EF55-A04D-4624-94F4-98031B93DB61} = {95F658D1-E10D-4090-91B0-20C389096626}
+	EndGlobalSection
+EndGlobal
